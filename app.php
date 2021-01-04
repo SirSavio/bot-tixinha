@@ -57,6 +57,7 @@
                     $('#status').html('ONLINE')
                     $('#status').attr('class','text-success')
                 } else {
+                    abriuGuia = false
                     $('#status').html('OFFLINE')
                     $('#status').attr('class','text-danger')
                 }
